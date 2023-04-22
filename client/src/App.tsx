@@ -7,7 +7,7 @@ function App() {
   ]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/products')
+    fetch('http://localhost:5000/api/product')
       .then(response => response.json())
       .then(data => setProducts(data))
   }, []);
