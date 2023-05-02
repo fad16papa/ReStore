@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Product } from "../../app/models/product";
-import { Avatar, Button, List, ListItem, ListItemAvatar, ListItemText } from "@mui/material";
+import { Button } from "@mui/material";
 import ProductList from "./ProductList";
 
 interface Props {
