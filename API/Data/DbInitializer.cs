@@ -14,7 +14,7 @@ namespace API.Data
 
             var products = new List<Product>
             {
-                        new Product
+                new Product
                 {
                     Name = "Angular Speedster Board 2000",
                     Description =
